@@ -11,3 +11,5 @@ on yopur VS code, open the folder(by using file ooption make the changes and use
         $git add name or .
         $git Commit -m "comments"
         $git push
+
+#Testing the changes from new terminal
