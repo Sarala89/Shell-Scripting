@@ -10,9 +10,9 @@
  #Using special charecters we can print the value of variable
  #$ special charecters will be used to print the value of variabe 
 
-echo $a
-echo $b
-echo $c
+echo "printing the values of $a"
+echo "printing the value of $b"
+echo "printer the value of $c"
 
 echo a
 echo b
