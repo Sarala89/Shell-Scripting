@@ -15,3 +15,4 @@ echo -e "\e[34m Name of popular vehical  is  $2 \e[0m"
 echo -e "\e[32m Name of prime minister is  $3 \e[0m"
 
 echo -e "\e[33m Used Variables are $* \e[0m"
+echo -e "\e[33m Used Variables are $@ \e[0m"
