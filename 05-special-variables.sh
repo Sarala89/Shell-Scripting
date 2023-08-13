@@ -16,3 +16,6 @@ echo -e "\e[32m Name of prime minister is  $3 \e[0m"
 
 echo -e "\e[33m Used Variables are $* \e[0m"
 echo -e "\e[33m Used Variables are $@ \e[0m"
+echo -e "\e[33m current process ID is $$ \e[0m"
+echo -e "\e[33m no of arguments are $# \e[0m"
+echo -e "\e[33m last command exit code is $? \e[0"
