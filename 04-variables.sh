@@ -15,8 +15,8 @@
 echo "printing the values of ${a}"
 echo "printing the value of ${b}"
 echo "printer the value of $c"
-echo -e "\e [32m printing todays date $DATE [0m"
-echo -e "\e [33m no of sessions $Sessions [0m"
+echo -e "\e[32m printing todays date $DATE[0m"
+echo -e "\e[33m no of sessions $Sessions[0m"
 echo a
 echo b
 echo c
