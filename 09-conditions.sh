@@ -11,15 +11,16 @@ ACTION=$1
 
 case $ACTION in
     start)
-        echo "Start the payment service"
+        echo -e "\e[32m Start the payment service \e[0m"
         ;;
     stop)
-        echo "Stop the payment service"
+        echo -e "\e[33m Stop the payment service \e[0m"
         ;;
     restart)
-        echo "Restarting the payment service"
+        echo -e "\e [31m Restarting the payment service \e[0m"
         ;;
     *)
         echo "Valid options are start,stop,restart"
-        echo "Example usage: ./09-conditions.sh start"
+        echo -e "Example usage: \n \t ./09-conditions.sh start"
+
 esac
