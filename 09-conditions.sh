@@ -17,7 +17,7 @@ case $ACTION in
         echo -e "\e[33m Stop the payment service \e[0m"
         ;;
     restart)
-        echo -e "\e [31m Restarting the payment service \e[0m"
+        echo -e "\e[31m Restarting the payment service \e[0m"
         ;;
     *)
         echo "Valid options are start,stop,restart"
