@@ -7,9 +7,9 @@
 #     opt2) commands.y
 # esac
 
-var Action = $1
+ACTION = $1
 
-case $Action in
+case $ACTION in
     start)
         echo "Start the payment service"
         ;;
