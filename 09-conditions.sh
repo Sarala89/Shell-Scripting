@@ -19,4 +19,7 @@ case $ACTION in
     restart)
         echo "Restarting the payment service"
         ;;
+    *)
+        echo "Valid options are start,stop,restart"
+        echo "Example usage: ./09-conditions.sh start"
 esac
