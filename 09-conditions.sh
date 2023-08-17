@@ -7,7 +7,7 @@
 #     opt2) commands.y
 # esac
 
-Action = $1
+var Action = $1
 
 case $Action in
     start)
