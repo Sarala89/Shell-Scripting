@@ -17,5 +17,3 @@ else
     echo -e "\e[31m valid options are Start, Stop amd Restart only \e[0m"
     exit 3
 fi
-
-
