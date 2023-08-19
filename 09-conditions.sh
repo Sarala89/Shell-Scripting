@@ -5,8 +5,7 @@
 # case $var in
 #     opt1) commands.x
 #     opt2) commands.y
-# esac
-
+# Testing changes
 ACTION=$1
 
 case $ACTION in
