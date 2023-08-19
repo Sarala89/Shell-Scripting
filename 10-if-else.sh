@@ -17,3 +17,7 @@ else
     echo -e "\e[31m valid options are Start, Stop amd Restart only \e[0m"
     exit 3
 fi
+
+for $val in 10,20,30,40,50; do
+    echo -e "The value is $val"
+done
