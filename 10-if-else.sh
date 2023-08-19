@@ -1,5 +1,9 @@
 echo "Demo on if usage"
 
+for $val in 10,20,30,40,50; do
+    echo -e "The value is $val"
+done
+
 ACTION=$1
 
 if [ "$ACTION" == "Start" ]; then
@@ -18,6 +22,3 @@ else
     exit 3
 fi
 
-for $val in 10,20,30,40,50; do
-    echo -e "The value is $val"
-done
