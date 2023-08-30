@@ -1,5 +1,4 @@
 #!/bin/bash
 
-$COMPONENT=$1
 
-bash $COMPONENT.sh
+bash $1.sh
